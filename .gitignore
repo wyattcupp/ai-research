@@ -1,0 +1,127 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs-info/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.txt
+*.whl
+*.manifest
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environments (conda, virtualenv, etc.)
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*/__pycache__/*
+
+# mypy cache
+.mypy_cache/
+
+# pytest cache
+.pytest_cache/
+
+# coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# Environments (pipenv)
+Pipfile.lock
+
+# Environments (poetry)
+poetry.lock
+
+# Environments (hatch)
+.hatch/
+
+# Environments (pdm)
+__pypackages__/
+
+# OS or Editor related files
+.DS_Store
+.vscode/
+*.swp
+*.swo
+.idea/
+*.log
+*.sqlite
+*.sqlite3
+__MACOSX/
+Thumbs.db
+
+# Large datasets or model checkpoints (if you don't want to commit them)
+data/
+models/
+checkpoints/
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.bin # often large binary files from models
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# Tensorboard logs
+runs/
+tensorboard/
+logs/
+
+# Documentation builds
+docs/_build/
+
+# Compiled artifacts from other languages (if you have them)
+*.o
+*.a
+*.exe
+*.dll
+
+# Config files (if you don't want to commit them)
+config.yaml
+config.json
+.env # if you didn't already exclude it above.
+*.ini
+
+# Large CSV or other data files that you don't want to commit
+*.csv
+*.tsv
+*.parquet
+
+# Any other specific file or folder you want to ignore.
+# example: large_experiment_results/
